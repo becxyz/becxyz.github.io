@@ -1,0 +1,297 @@
+html, body, section, div {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* background-image: url("../img/tegernsee3.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+html {
+  font-size: 1vw;
+}
+
+header {
+  display: none;
+}
+
+label:hover{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+a:hover{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+#idx-start {
+  color: inherit;
+  margin-top: 3rem;
+  margin-bottom: 40rem;
+  /* height: 100vh; */
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  /* border:2px solid red; */
+}
+
+
+#trips {
+  position: fixed;
+  top:10rem;
+  width: 100%;
+  background-color: rgba(245,245,245, 0.8);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+
+  font-size: 4rem;
+  /* border: 2px solid red; */
+}
+
+subheader a {
+  color: inherit;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+
+.heading {
+  width: 90%;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 1rem 0rem 1rem;
+  font-style: normal;
+  /* font-weight: bold; */
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(245,245,245, 0.7);
+}
+
+article {
+  margin: 0 auto;
+  margin-top: 25rem;
+
+  padding: 1rem;
+  width: 90%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  font-weight: bolder;
+  color: inherit;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  align-self: center;
+  text-align: justify;
+  background-color: rgba(245,245,245, 0.8);
+}
+
+.art1 {
+  /* border:2px solid red; */
+  font-style: normal;
+  font-weight: 300;
+    font-size: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(245,245,245, 0.8);
+}
+
+
+
+.art2 {
+  /* border:2px solid red; */
+  font-style: normal;
+  font-weight: 300;
+    font-size: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(245,245,245, 0.8);
+}
+
+.part1 {
+  /* border:2px solid blue; */
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+  flex-flow: row wrap;
+}
+
+.part2 {
+  /* border:2px solid blue; */
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+p::first-letter {
+  font-size: 5rem;
+}
+
+.imgart1 {
+  align-self: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 65rem;
+  height: 100%;
+}
+
+.imgart2 {
+  width: 45%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+#pano {
+
+  width: 95%;
+}
+
+.iframe1 {
+  padding:0;
+  margin:0;
+  align-self: center;
+  margin: 0 auto;
+  width:65rem;
+  height:100%;
+}
+
+#mail {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-decoration: none;
+  padding: 5rem;
+  border: 2px solid grey;
+  color: inherit;
+  margin: 0 auto;
+  margin: 2rem;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(245,245,245, 0.8);
+}
+
+#mail:hover{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+footer {
+  position: fixed;
+  bottom:0;
+  right:-5000rem;
+  color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  font-size: 6rem;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid rgba(255,255,255,0.5);
+  text-decoration: none;
+  background-color: rgba(245,245,245, 0.6);
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 0.1s;
+}
+
+
+footer ol {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding:0;
+
+}
+
+
+footer ol a{
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 200%;
+  text-decoration: none;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.5);
+
+}
+
+footer ol a i {
+  color: rgba(0, 0, 0, 0.7);
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  padding-left: 2rem;
+  padding-right: 10rem;
+}
+
+input {
+  position: fixed;
+  bottom:0;
+  left:0;
+  color:inherit;
+}
+
+#show-s {
+  background-color: rgba(245,245,245, 0.6);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  top:0rem;
+
+  color:inherit;
+  cursor: pointer;
+}
+
+#show-s:hover{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+#show-side[type="checkbox"]:checked ~ #show-side{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ footer{
+  right: 0;
+  left:0;
+}
