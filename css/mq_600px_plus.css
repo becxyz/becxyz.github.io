@@ -1,0 +1,141 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.2rem;
+  background-color: rgba(245,245,245, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid whitesmoke; */
+}
+
+html {
+  font-size: 1.2vw;
+}
+
+nav1 {
+  height: 100%
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  margin: auto 1rem;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto .5rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  position: fixed;
+  right:-5000rem;
+  top: 2.2rem;
+  height: auto;
+  width: 16rem;
+  margin: 0 auto;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  color: inherit;
+}
+
+ol {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(245,245,245, 0.8);
+  border:2px solid white;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+  right: 0;
+}
+
+input[type="checkbox"]:checked ~ label{
+  background-color: rgba(105,105,105,0.4);
+  color: inherit;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.side{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+label {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto .5rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#idx-start {
+  justify-content:center;}
+
+h1 {
+  height: 15rem;
+  font-size: 2.5rem;
+  width: 40%;
+  margin-top: 0rem;
+}
+
+footer {
+  display: none;
+}
+
+.sect{
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
